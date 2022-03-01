@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&family=Caveat:wght@400;500;600&display=swap');
+
+*{
+    margin: 0; padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(pexels-ricardo-esquivel-1563256.jpg) no-repeat center center/cover;
+}
+
+.container{
+    width: 80%;
+    background-color: rgba(14, 12, 15, 0.4);
+    padding: 34px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container h1{
+    font-family: 'Capriola', sans-serif;
+    font-size: 37px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #e2e6ff;
+}
+
+p{
+    font-family: 'Capriola', sans-serif;
+    color: #e2e6ff;
+    text-align: center;
+    font-size: 17px;
+}
+
+.success p{
+    font-family: 'Caveat', cursive;
+    color: lime;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 10px 1px;
+}
+
+.error p{
+    font-family: 'Caveat', cursive;
+    color: red;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 10px 1px;
+}
+
+input, textarea{
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+    margin: 6px auto;
+    padding: 7px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-control{
+    width: 80%;
+}
+
+.input-control label{
+    display: block;
+    color: #efe646;
+    font-size: 18px;
+}
+
+.btn{
+    color: white;
+    background: #481448;
+    padding: 8px 14px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    cursor: pointer;
+}
